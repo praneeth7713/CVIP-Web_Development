@@ -1,0 +1,262 @@
+@media (max-width: 1279px){
+    
+    header nav{
+        padding: 0;
+    }
+
+    .container5 .qna ul{
+        padding: 0 20px;
+    }
+    footer{
+        margin:0 32px;
+    }
+    footer .footer-links ul{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width:949px) {
+
+    header .intro h2 {
+
+        padding: 5px 0;
+    }
+
+    header .intro h3 {
+        padding: 0px 90px 10px 90px;
+        font-size: 1.5em;
+    }
+
+    header .intro section {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 30px;
+
+    }
+
+    header .intro section .email-intro {
+        width: 500px;
+    }
+
+    header .intro section button {
+        width: 130px;
+        height: 40px;
+        margin: 15px;
+        font-size: 16px;
+    }
+
+    header .intro section button svg {
+        height: 10px;
+    }
+    .head-box{
+        flex-direction: column;
+    }
+
+   .head-box .head-sec{
+        padding: 0 !important;
+        text-align: center;
+        width: auto;
+    }
+    .head-box .head-sec h1{
+        font-size: 32px ;
+        margin:0 0 8px;
+    }
+    .head-box .head-sec h2{
+        font-size: 18px;
+        margin: 15px 0 5px;
+    }
+    .head-box section.head-sec2 h1,.head-box section.head-sec4 h1{
+        margin: 0;
+    }
+    .container .head-box2,.container .head-box4{
+        flex-direction: column-reverse;
+    }
+    .container5 .qna h1{
+        font-size: 32px;
+    }
+  .container5 .qna section{
+    flex-direction: column;
+  }
+  .container5 .qna section .email-intro{
+    width: 70%;
+  }
+  .container5 .qna section button{
+    margin:20px 0;
+    padding: 8px 16px;
+  }
+  .container5 .qna h3{
+    padding: 15px 20px;
+  }
+  .container5 .qna ul li span{
+    font-size: 18px;
+  }
+  footer .footer-links ul{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+
+
+
+@media (max-width:770px) {
+    header .intro-all .intro {
+        margin: 0 100px;
+    }
+    .container .head-box{
+        margin: 0 20px;
+    }
+
+    header .intro h2 {
+        padding: none;
+        font-family: 500;
+    }
+
+    header .intro h3 {
+        padding: 0px 30px 10px 50px;
+        font-size: 1.2em;
+        font-weight: 480;
+    }
+
+    header .intro-all .intro .email-intro {
+        height: 48px;
+    }
+    
+}
+
+@media (max-width:679px) {
+    header .intro h1 br {
+        display: none;
+    }
+}
+
+@media (max-width:604px) {
+    header .intro-all .intro {
+        margin: 0 auto;
+    }
+    footer .footer-links ul{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width:556px) {
+
+    header .intro-all .intro {
+        margin: 0;
+        padding: 130px 0;
+    }
+
+    header .intro h1 {
+        height: 165px;
+        padding: 0 50px;
+
+    }
+
+    header .intro-all .intro h1 br.br-add {
+        display: none;
+    }
+
+    header .intro h2 {
+        font-weight: 500;
+
+    }
+
+    header .intro h3 {
+        padding: 0 80px 10px 80px;
+        font-size: 18px;
+        font-weight: 450;
+    }
+    .container5 .qna h1{
+        padding: 0 15px;
+    }
+}
+
+
+@media (max-width:549px) {
+
+    header {
+        height: 31rem;
+    }
+
+    header>div {
+        height: 26.5rem;
+    }
+
+    header nav img{
+        width: 7em;
+        padding: 20px 30px;
+    }
+    header nav ul{
+        margin-right:0;
+        justify-content: space-evenly;
+    }
+    header nav ul li:nth-child(1){ 
+        margin-left: 20px;
+        padding: 3px 13px;
+    }
+    header nav ul li:nth-child(2){ 
+        padding: 3px 10px;
+    }
+    header .intro-all .intro {
+        padding: 50px 0;
+    }
+
+    header .intro-all .intro h1 {
+        font-size: 28px;
+        line-height: 30px;
+        padding: 0 50px;
+        height: auto;
+    }
+
+    header .intro-all .intro h2 {
+        font-size: 18px;
+        font-weight: 500;
+        padding: 0;
+    }
+
+    header .intro-all .intro h3 {
+        font-weight: 500;
+    }
+    .head-box2 .media2{
+        padding: 60px;
+    }
+}
+
+
+@media (max-width:380px){
+    header .intro-all .intro h3{
+        padding: 0 50px 10px 50px;
+    }
+}
+
+@media (max-width:402px) {
+    footer .footer-links ul{
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+    }
+}
+@media (max-width:356px){
+   header nav img{
+     padding: 20px;
+}
+header nav ul li:nth-child(1){
+    margin: 0;
+    width: auto;
+}
+    header .intro-all .intro h1{
+        padding:0px 10px;
+    }
+    header .intro-all .intro h3{
+        padding:10px 10px;
+    }
+    header nav ul li{
+        flex-shrink: 5;
+    }
+    .head-box .head-sec{
+        width: auto;
+    }
+    .head-box .head-sec h1{
+      
+        font-size: 32px;
+        
+    }
+}

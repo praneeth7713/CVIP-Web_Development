@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font);
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+:root {
+    --border: rgba(0, 0, 0, 0.521);
+    --red: #dd0a14;
+    --font: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+header {
+    background: url(images/IN-en-20230227-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    height: 45rem;
+    background-size: cover;
+}
+
+header>div {
+    background: linear-gradient(var(--border) 75%, black);
+    position: absolute;
+    width: 100%;
+    height: 39.9rem;
+}
+
+header nav {
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(black, var(--border));
+    padding: 0 100px;
+
+}
+
+nav img {
+    width: 9em;
+    padding: 20px 60px;
+}
+
+nav ul {
+    display: block;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 250px;
+    margin-right: 45px;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:nth-child(1) {
+    border: 1px solid rgb(112, 112, 112);
+    padding: 6px 17px;
+    border-radius: 2px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+nav ul li:nth-child(2) {
+    background: var(--red);
+    padding: 6px 17px;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+nav ul li:nth-child(2):hover {
+    background: rgb(193, 17, 25);
+}
+
+header .intro-all .intro {
+    color: white;
+    padding: 190px 0px;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+
+.intro h1 {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 55px;
+    text-align: center;
+}
+
+.intro h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 55px;
+    margin: 12px 0 0;
+}
+
+.intro h3,
+.container5 .qna h3 {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding: 15px;
+}
+
+header section {
+    position: relative;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.intro .email-intro,
+.container5 .qna section .email-intro {
+    padding: 10px;
+    width: 350px;
+    line-height: 10px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(15, 15, 15, 0.767);
+    border: none;
+    outline: 1px solid rgb(112, 112, 112);
+    border-radius: 5px;
+    color: rgb(202, 202, 202);
+    margin-right: 10px 20px;
+    font-family: 20px;
+    height: 36px;
+}
+
+.intro button,
+.container5 .qna section button {
+    background: var(--red);
+    border: none;
+    height: 57px;
+    width: 201px;
+    line-height: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.intro button svg,
+.container5 .qna section button svg {
+    height: 20px;
+}
+
+.intro button:hover {
+    background-color: rgb(241, 0, 0);
+}
+
+main {
+    background-color: black;
+}
+
+hr.all {
+    height: 8px;
+    background: rgb(35, 35, 35);
+    border: none;
+}
+
+div.container {
+    padding: 70px 0;
+}
+
+.head-box {
+    margin: 0 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1110px;
+    box-sizing: border-box;
+}
+
+.head-box .head-sec {
+    text-align: left;
+    width: 530px;
+    height: 100%;
+    font-weight: 400;
+
+}
+
+.head-sec h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    line-height: 1.1;
+
+}
+
+.head-sec h2 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 16px 0 0;
+}
+
+.media {
+    position: relative;
+}
+
+.media img {
+    max-width: 100%;
+    height: auto;
+}
+
+.head-box3 .head-sec3 {
+    width: 600px;
+
+}
+
+.head-box4 .head-sec4 {
+    padding-left: 10px;
+}
+
+.head-box2 .head-sec2 {
+    padding-left: 30px;
+}
+
+/* Question Answer */
+
+.container5 .qna h1 {
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+
+}
+
+.qna ul {
+    padding: 0 150px;
+    margin: 24px 0 20px 0;
+}
+
+.qna ul li {
+    position: relative;
+    list-style-type: none;
+    background-color: rgba(45, 45, 45, 1);
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.qna ul li:hover{
+    transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+    background-color: rgba(78, 78, 78, 1);
+    transition: .3s;
+}
+.qna ul li span {
+    font-size: 26px;
+
+}
+
+.qna ul li span:nth-child(2) {
+    font-size: 60px;
+    position: absolute;
+    right: 20px;
+}
+.qna section button:hover{
+    background: rgb(193, 17, 25);
+    transition: .2s;
+}
+
+.container5 .qna section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: black;
+    margin: 0 160px;
+    padding: 60px 0;
+    font-family: 'poppins', sans-serif;
+}
+
+footer .about-call,
+footer .about-call a {
+    color: rgba(255, 255, 255, .7);
+    font-weight: 500;
+}
+
+footer .about-call {
+    padding: 12px 0;
+}
+
+footer .footer-links ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    row-gap: 15px;
+    column-gap: 15px;
+    padding: 24px 0;
+}
+
+footer .footer-links ul li {
+    list-style-type: none;
+    text-decoration: underline;
+
+}
+
+footer .footer-links ul li a {
+    color: rgba(255, 255, 255, .7);
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: 'poppins', sans-serif;
+}
+footer select{
+    background-color: rgba(15, 15, 15, 0.7);
+    padding: 3px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 5px;
+}
+footer pre{
+    padding: 20px 0 0;
+    color: rgba(255, 255, 255, .7);
+}
